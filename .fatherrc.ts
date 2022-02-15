@@ -1,3 +1,6 @@
 export default {
-  esm: 'babel',
+  target: 'node',
+  cjs: { type: 'babel', lazy: true },
+  disableTypeCheck: true,
+  pkgs: ['hooks'],
 };
