@@ -15,7 +15,7 @@ import React from 'react';
 import { UseDocumentTitle } from 'react-ihooks';
 
 export default () => {
-  useTitle('页面标题');
+  UseDocumentTitle('页面标题');
 
   return (
     <div>

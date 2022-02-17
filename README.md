@@ -1,36 +1,28 @@
 # ihooks
 
-文档预览 <br />
-<img src='https://github.com/00feng00/ihooks/blob/main/src/assets/preview_bg.jpg' width="100%">
+文档预览 <br /> <img src='https://github.com/00feng00/ihooks/blob/main/src/assets/preview_bg.jpg' width="100%">
 
-## Getting Started
-
-Install dependencies,
+## 安装 react-ihooks
 
 ```bash
-$ npm i
+$ npm i react-ihooks
 ```
 
-Start the dev server,
+## UseDocumentTitle
 
-```bash
-$ npm start
-```
+示例代码
 
-Build documentation,
+```tsx
+import React from 'react';
+import { UseDocumentTitle } from 'react-ihooks';
 
-```bash
-$ npm run docs:build
-```
+export default () => {
+  useTitle('页面标题');
 
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
+  return (
+    <div>
+      <p>为页面设置标题</p>
+    </div>
+  );
+};
 ```
