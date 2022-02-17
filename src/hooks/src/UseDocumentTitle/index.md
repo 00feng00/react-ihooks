@@ -4,7 +4,7 @@ nav:
   path: /components
 ---
 
-## UseDocumentTitle
+## useDocumentTitle
 
 设置浏览器页面标题
 
@@ -12,10 +12,10 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { UseDocumentTitle } from 'react-ihooks';
+import { useDocumentTitle } from 'react-ihooks';
 
 export default () => {
-  UseDocumentTitle('页面标题');
+  useDocumentTitle('页面标题');
 
   return (
     <div>

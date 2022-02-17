@@ -1,4 +1,4 @@
-# ihooks
+# react-ihooks
 
 文档预览 <br /> <img src='https://github.com/00feng00/ihooks/blob/main/src/assets/preview_bg.jpg' width="100%">
 
@@ -8,16 +8,16 @@
 $ npm i react-ihooks
 ```
 
-## UseDocumentTitle
+## useDocumentTitle
 
 示例代码
 
 ```tsx
 import React from 'react';
-import { UseDocumentTitle } from 'react-ihooks';
+import { useDocumentTitle } from 'react-ihooks';
 
 export default () => {
-  useTitle('页面标题');
+  useDocumentTitle('页面标题');
 
   return (
     <div>
