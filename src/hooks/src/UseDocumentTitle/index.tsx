@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import isBrowser from '../utils/isBrowser';
-import useComponentDestroy from '../UseComponentDestroy';
+import useComponentDestroy from '../useComponentDestroy';
 export interface Options {
   recoverOnDestroy?: boolean;
 }
