@@ -55,4 +55,4 @@ export default () => {
 
 ## 技术交流
 
-<img src='https://github.com/00feng00/ihooks/blob/main/src/assets/preview_bg.jpg' width="300">
+<img src='https://camo.githubusercontent.com/cd50eb85ab332891faee0c34486e9921f63bd1bd1da12e246dd7f3f83814b6be/68747470733a2f2f303066656e6730302e6769746875622e696f2f696d672f71647a635f6c6f676f2e6a7067' width="300">
