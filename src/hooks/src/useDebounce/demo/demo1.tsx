@@ -1,16 +1,3 @@
----
-nav:
-  title: hooks
-  path: /components
----
-
-## useDebounce
-
-定制处理防抖： ·设置等待时间， ·是否在延迟开始前调用函数 ·是否在延迟开始后调用函数 ·最大等待时间，单位为毫秒
-
-Demo:
-
-```tsx
 import React, { useState } from 'react';
 import { useDebounce } from 'react-ihooks';
 
@@ -30,4 +17,3 @@ export default () => {
     </div>
   );
 };
-```

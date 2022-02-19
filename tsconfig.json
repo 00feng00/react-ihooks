@@ -1,13 +1,21 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "target": "ES5",
     "moduleResolution": "node",
     "jsx": "react",
+    "allowJs": true,
     "esModuleInterop": true,
-    "types": ["jest"],
-    "strict": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
-    "declaration": true
-  }
+    "declaration": false,
+    "strictNullChecks": true,
+    "rootDir": "src"
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "**/__tests__", "**/__test__", "demo"]
 }

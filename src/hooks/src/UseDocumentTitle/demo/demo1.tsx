@@ -1,16 +1,3 @@
----
-nav:
-  title: hooks
-  path: /components
----
-
-## useDocumentTitle
-
-设置浏览器页面标题
-
-Demo:
-
-```tsx
 import React from 'react';
 import { useDocumentTitle } from 'react-ihooks';
 
@@ -23,4 +10,3 @@ export default () => {
     </div>
   );
 };
-```
