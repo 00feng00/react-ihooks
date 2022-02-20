@@ -12,4 +12,4 @@ nav:
 
 Demo:
 
-<!-- <code src='./demo/demo1.tsx' /> -->
+<code src='./demo/demo1.tsx' />
