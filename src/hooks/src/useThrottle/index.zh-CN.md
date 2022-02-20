@@ -1,7 +1,6 @@
 ---
 nav:
-  title: hooks
-  path: /components
+  path: /hooks
 ---
 
 # useThrottle

@@ -10,5 +10,22 @@ export default defineConfig({
   resolve: {
     includes: ['docs', 'hooks/src'],
   },
-  // more config: https://d.umijs.org/config
+  navs: {
+    'zh-CN': [{ title: 'Hooks', path: '/zh-CN/hooks' }],
+  },
+  menus: {
+    '/hooks': [
+      {
+        title: '设置浏览器标题',
+        children: [{ title: 'useDocumentTitle', path: '/useDocumentTitle' }],
+      },
+      {
+        title: '防抖/节流',
+        children: [
+          { title: '防抖', path: '/useDebounce' },
+          { title: '节流', path: '/useThrottle' },
+        ],
+      },
+    ],
+  },
 });

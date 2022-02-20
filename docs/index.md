@@ -4,7 +4,7 @@ hero:
   desc: 广东靓仔的React函数库-ihooks
   actions:
     - text: 快速开始
-      link: /components
+      link: /hooks
 features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/881dc458-f20b-407b-947a-95104b5ec82b/k79dm8ih_w144_h144.png
     title: 基于React
