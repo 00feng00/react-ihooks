@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "ihooks",
+  "name": "react-ihooks",
   "version": "0.0.1",
   "scripts": {
     "start": "dumi dev",
