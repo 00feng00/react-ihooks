@@ -1,6 +1,6 @@
 # react-ihooks
 
-文档预览 <br /> <img src='https://github.com/00feng00/ihooks/blob/main/src/assets/preview_bg.jpg' width="100%">
+[文档预览](https://react-ihooks.github.io/) <br />
 
 ## 安装 react-ihooks
 
