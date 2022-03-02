@@ -1,7 +1,7 @@
 ---
 hero:
   title: react-ihooks
-  desc: 广东靓仔的React函数库-react-ihooks
+  desc: 前端早茶的React函数库-react-ihooks
   actions:
     - text: 快速开始
       link: /hooks

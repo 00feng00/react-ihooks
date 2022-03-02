@@ -1,6 +1,6 @@
 import { useMemo, useRef } from 'react';
 
-type noop = (this: any, args: any[]) => any;
+type noop = (this: any, ...args: any[]) => any;
 
 function useMemoizedFn<T extends noop>(fn: T) {
   const fnRef = useRef<T>(fn);

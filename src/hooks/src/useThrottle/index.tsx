@@ -7,7 +7,7 @@ export interface ThrottleOptions {
   trailing: boolean;
 }
 
-function useThrottle<T>(value: T, options: ThrottleOptions) {
+function useThrottle<T>(value: T, options?: ThrottleOptions) {
   const [throttled, setThrottled] = useState(value);
 
   const { run } = useThrottleFn(() => {

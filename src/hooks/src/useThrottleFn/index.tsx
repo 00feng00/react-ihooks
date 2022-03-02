@@ -19,7 +19,7 @@ function useThrottleFn<T extends noop>(fn: T, options: ThrottleOptions) {
   const throttled = useMemo(
     () =>
       throttle<T>(
-        ((args: any[]) => {
+        ((...args: any[]) => {
           return fnRef.current(...args);
         }) as T,
         wait,
