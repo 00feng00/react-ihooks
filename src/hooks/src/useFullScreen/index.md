@@ -13,10 +13,6 @@ nav:
 
 <code src="./demo/demo1.tsx" />
 
-### 图片全屏
-
-<code src="./demo/demo2.tsx" />
-
 ## API
 
 ```typescript

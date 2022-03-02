@@ -1,5 +1,3 @@
-import useDocumentTitle from './hooks/src/useDocumentTitle';
-import useDebounce from './hooks/src/useDebounce';
-import useThrottle from './hooks/src/useThrottle';
-import useFullScreen from './hooks/src/useFullScreen';
-export { useDebounce, useDocumentTitle, useThrottle, useFullScreen };
+export { default as useDocumentTitle } from './hooks/src/useDocumentTitle';
+export { default as useDebounce } from './hooks/src/useDebounce';
+export { default as useFullScreen } from './hooks/src/useFullScreen';
