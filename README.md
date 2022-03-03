@@ -4,7 +4,7 @@
 
 # logo
 
-<img src='src='https://github.com/00feng00/ihooks/blob/main/src/assets/react-ihooks_logo.png' width="300" />
+<img src='https://github.com/00feng00/ihooks/blob/main/src/assets/react-ihooks_logo.png' width="300" />
 
 ## 安装 react-ihooks
 
