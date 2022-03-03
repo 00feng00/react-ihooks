@@ -21,7 +21,7 @@ const useFullScreen = (target: BasicTarget, options: Options) => {
 
   const onChange = () => {
     if (screenfull.isEnabled) {
-      const { isFullscreen } = screenFull;
+      const { isFullscreen } = screenfull;
       if (isFullscreen) {
         onEnterRef.current?.();
       } else {
