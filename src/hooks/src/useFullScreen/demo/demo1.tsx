@@ -7,11 +7,11 @@
  */
 
 import React, { useRef } from 'react';
-import { useFullscreen } from 'react-ihooks';
+import { useFullScreen } from 'react-ihooks';
 
 export default () => {
   const ref = useRef();
-  const [isFullscreen, { enterFullscreen, exitFullscreen, toggleFullscreen }] = useFullscreen(ref);
+  const [isFullscreen, { enterFullscreen, exitFullscreen, toggleFullscreen }] = useFullScreen(ref);
   return (
     <div ref={ref} style={{ background: 'white' }}>
       <div style={{ marginBottom: 16 }}>{isFullscreen ? 'Fullscreen' : 'Not fullscreen'}</div>

@@ -24,10 +24,10 @@ export default defineConfig({
         title: '防抖/节流',
         children: ['useDebounce', 'useThrottle'],
       },
-      // {
-      //   title: '全屏',
-      //   children: ['useFullScreen'],
-      // },
+      {
+        title: '全屏',
+        children: ['useFullScreen'],
+      },
     ],
   },
 });
