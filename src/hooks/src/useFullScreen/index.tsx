@@ -12,12 +12,12 @@ export interface Options {
 }
 
 const useFullScreen = (target: BasicTarget, options: Options) => {
-  const { onEnter, onExit } = options || {};
+  const { onExit, onEnter } = options || {};
 
-  const onEnterRef = useLatest(onEnter);
   const onExitRef = useLatest(onExit);
+  const onEnterRef = useLatest(onEnter);
 
-  const [state, setState] = useState<boolean>(false);
+  const [state, setState] = useState(false);
 
   const onChange = () => {
     if (screenfull.isEnabled) {
@@ -32,7 +32,7 @@ const useFullScreen = (target: BasicTarget, options: Options) => {
     }
   };
 
-  const enterFullScreen = () => {
+  const enterFullscreen = () => {
     const el = getTargetElement(target);
     if (!el) {
       return;
@@ -43,12 +43,12 @@ const useFullScreen = (target: BasicTarget, options: Options) => {
         screenfull.request(el);
         screenfull.on('change', onChange);
       } catch (error) {
-        console.log('error');
+        console.error(error);
       }
     }
   };
 
-  const exitFullScreen = () => {
+  const exitFullscreen = () => {
     if (!state) {
       return;
     }
@@ -57,11 +57,11 @@ const useFullScreen = (target: BasicTarget, options: Options) => {
     }
   };
 
-  const toggleFullScreen = () => {
+  const toggleFullscreen = () => {
     if (state) {
-      exitFullScreen();
+      exitFullscreen();
     } else {
-      enterFullScreen();
+      enterFullscreen();
     }
   };
 
@@ -74,9 +74,9 @@ const useFullScreen = (target: BasicTarget, options: Options) => {
   return [
     state,
     {
-      enterFullScreen: useMemoizedFn(enterFullScreen),
-      exitFullScreen: useMemoizedFn(exitFullScreen),
-      toggleFullScreen: useMemoizedFn(toggleFullScreen),
+      enterFullscreen: useMemoizedFn(enterFullscreen),
+      exitFullscreen: useMemoizedFn(exitFullscreen),
+      toggleFullscreen: useMemoizedFn(toggleFullscreen),
       isEnabled: screenfull.isEnabled,
     },
   ] as const;
