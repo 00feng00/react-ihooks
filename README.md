@@ -2,9 +2,7 @@
 
 [文档预览](https://react-ihooks.github.io/) <br />
 
-
-logo <br />
-<img src='https://github.com/00feng00/ihooks/blob/main/src/assets/react-ihooks_logo.png' width="200" />
+<a href="https://react-ihooks.github.io"><img src='https://github.com/00feng00/ihooks/blob/main/src/assets/react-ihooks_logo.png' width="200" /></a>
 
 ## 安装 react-ihooks
 
