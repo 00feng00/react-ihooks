@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import screenfull from 'screenfull';
+import screenfull from './screenfull/index.js';
 import useLatest from '../useLatest';
 import useComponentDestroy from '../useComponentDestroy';
 import type { BasicTarget } from '../utils/domTarget';

@@ -1,0 +1,72 @@
+{
+  "_from": "screenfull",
+  "_id": "screenfull@6.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-yzQW+j4zMUBQC51xxWaoDYjxOtl8Kn+xvue3p6v/fv2pIi1jH4AldgVLU8TBfFVgH2x3VXlf3+YiA/AYIPlaew==",
+  "_location": "/screenfull",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "screenfull",
+    "name": "screenfull",
+    "escapedName": "screenfull",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmmirror.com/screenfull/-/screenfull-6.0.1.tgz",
+  "_shasum": "3b71e6f06b72d817a8d3be73c45ebe71fa8da1ce",
+  "_spec": "screenfull",
+  "_where": "/Applications/github开源项目/hooks",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sindresorhus/screenfull/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Simple wrapper for cross-browser usage of the JavaScript Fullscreen API, which lets you bring the page or any element into fullscreen.",
+  "devDependencies": {
+    "tsd": "^0.18.0",
+    "xo": "^0.45.0"
+  },
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "exports": "./index.js",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "funding": "https://github.com/sponsors/sindresorhus",
+  "homepage": "https://github.com/sindresorhus/screenfull#readme",
+  "keywords": [
+    "browser",
+    "fullscreen"
+  ],
+  "license": "MIT",
+  "name": "screenfull",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindresorhus/screenfull.git"
+  },
+  "scripts": {
+    "test": "xo && tsd"
+  },
+  "type": "module",
+  "version": "6.0.1",
+  "xo": {
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
